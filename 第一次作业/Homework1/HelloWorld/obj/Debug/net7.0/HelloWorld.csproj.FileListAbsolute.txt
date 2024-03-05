@@ -1,0 +1,14 @@
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+E:\homework\Csharp\Learning-Csharp\第一次作业\Homework1\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
