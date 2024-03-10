@@ -7,3 +7,4 @@ E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Deb
 E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.csproj.CoreCompileInputs.cache
 E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.exe
 E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.pdb
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.Form1.resources
