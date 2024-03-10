@@ -1,0 +1,9 @@
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\bin\Debug\WindowsFormsHomework1.exe.config
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\bin\Debug\WindowsFormsHomework1.exe
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\bin\Debug\WindowsFormsHomework1.pdb
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.csproj.AssemblyReference.cache
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.Properties.Resources.resources
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.csproj.GenerateResource.cache
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.csproj.CoreCompileInputs.cache
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.exe
+E:\homework\Csharp\Learning-Csharp\第二次作业\WindowsFormsHomework1\obj\Debug\WindowsFormsHomework1.pdb
