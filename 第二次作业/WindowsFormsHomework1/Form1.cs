@@ -16,14 +16,20 @@ namespace WindowsFormsHomework1
         {
             InitializeComponent();
             
+            //初始化控件样式
+            #region InitializeComponent
+
             SetButtonStyle(button1);
             SetLabelStyle(label1);
             SetLabelStyle(label2);
             SetLabelStyle(label3);
             SetLabelStyle(label4);
             SetLabelStyle(label5);
+
+            #endregion
             
-            #region   初始化控件缩放
+            //初始化控件缩放
+            #region  InitializeResize
  
             x = Width;
             y = Height;
@@ -31,6 +37,9 @@ namespace WindowsFormsHomework1
  
             #endregion
         }
+
+        //设置控件样式
+        #region SetStyle
         
         private void SetButtonStyle(Button button)
         {
@@ -57,52 +66,61 @@ namespace WindowsFormsHomework1
         {
             label.BackColor = Color.Transparent;
         }
+        
+        #endregion
 
+        //设置鼠标点击事件
         private void button1_Click(object sender, EventArgs e)
         {
+            //生成一个范围为[-100,100)的随机的整数数组
             Random random = new Random();
             var intArray = new int[6];
-            
             for (int i = 0; i < 6; i++)
             {
-                intArray[i] = random.Next(100);
+                intArray[i] = random.Next(-100,100);
             }
 
+            //分别显示数组及其各项统计值
             label1.Text = "数组为：\n" + string.Join(" ", intArray);
-            
             Array.Sort(intArray);
-            label2.Text = "最大值为： " + intArray[5].ToString();
-            label3.Text = "最小值为： " + intArray[0].ToString();
-
+            label2.Text = "最大值为： " + intArray[5];
+            label3.Text = "最小值为： " + intArray[0];
             int sum = 0;
             foreach (var i in intArray)
             {
                 sum += i;
             }
-
-            label4.Text = "平均值为： " + (sum / 6.0).ToString("f2");
+            label4.Text = "平均值为： " + (sum / 6.0).ToString("f2");//保留两位小数
             label5.Text = "和为： " + sum;
         }
         
+        //设置窗口缩放
         private void Form1_Resize(object sender, EventArgs e)
         {
             //重置窗口布局
             ReWinformLayout();
         }
 
+        //实现控件大小随窗体大小等比例缩放
+        #region ResizeUI
+        
         private float x; //定义当前窗体的宽度
         private float y; //定义当前窗体的高度
  
-        private void SetTag(Control cons)
+        //获取并保留所有控件的属性
+        private static void SetTag(Control cons)
         {
             foreach (Control con in cons.Controls)
             {
                 con.Tag = con.Width + ";" + con.Height + ";" + con.Left + ";" + con.Top + ";" + con.Font.Size;
-                if (con.Controls.Count > 0) SetTag(con);
+                if (con.Controls.Count > 0)
+                {
+                    SetTag(con);
+                }
             }
         }
  
-        private void SetControls(float newx, float newy, Control cons)
+        private static void SetControls(float newx, float newy, Control cons)
         {
             //遍历窗体中的控件，重新设置控件的值
             foreach (Control con in cons.Controls)
@@ -116,9 +134,15 @@ namespace WindowsFormsHomework1
                     con.Left = Convert.ToInt32(Convert.ToSingle(mytag[2]) * newx); //左边距
                     con.Top = Convert.ToInt32(Convert.ToSingle(mytag[3]) * newy); //顶边距
                     var currentSize = Convert.ToSingle(mytag[4]) * newy; //字体大小                   
-                    if (currentSize > 0) con.Font = new Font(con.Font.Name, currentSize, con.Font.Style, con.Font.Unit);
+                    if (currentSize > 0)
+                    {
+                        con.Font = new Font(con.Font.Name, currentSize, con.Font.Style, con.Font.Unit);
+                    }
                     con.Focus();
-                    if (con.Controls.Count > 0) SetControls(newx, newy, con);
+                    if (con.Controls.Count > 0)
+                    {
+                        SetControls(newx, newy, con);
+                    }
                 }
         }
         
@@ -129,5 +153,7 @@ namespace WindowsFormsHomework1
             SetControls(newx, newy, this);
  
         }
+        
+        #endregion
     }
 }
