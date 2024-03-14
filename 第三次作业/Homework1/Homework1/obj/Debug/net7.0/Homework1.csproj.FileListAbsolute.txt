@@ -1,0 +1,14 @@
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\bin\Debug\net7.0\Homework1.exe
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\bin\Debug\net7.0\Homework1.deps.json
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\bin\Debug\net7.0\Homework1.runtimeconfig.json
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\bin\Debug\net7.0\Homework1.dll
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\bin\Debug\net7.0\Homework1.pdb
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.GeneratedMSBuildEditorConfig.editorconfig
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.AssemblyInfoInputs.cache
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.AssemblyInfo.cs
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.csproj.CoreCompileInputs.cache
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.dll
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\refint\Homework1.dll
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.pdb
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\Homework1.genruntimeconfig.cache
+E:\homework\Csharp\Learning-Csharp\第三次作业\Homework1\Homework1\obj\Debug\net7.0\ref\Homework1.dll
