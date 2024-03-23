@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -14,6 +15,14 @@ namespace Homework1
             InitializeComponent();
 
             _alarmClock = new AlarmClock();
+
+            tableLayoutPanel1.BackColor = Color.Transparent;
+
+            var screenAre = Screen.GetWorkingArea(this);
+            if (screenAre.Height < Height)
+            {
+                Height = screenAre.Height;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
