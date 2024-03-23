@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Homework1
@@ -7,11 +8,11 @@ namespace Homework1
     {
         //保存闹铃时间和列表
         private AlarmClock _alarmClock;
-        
+
         public Form1()
         {
             InitializeComponent();
-            
+
             _alarmClock = new AlarmClock();
         }
 
@@ -19,21 +20,21 @@ namespace Homework1
         {
             //设置DateTimePicker的格式为时间格式
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
-            
+
             //设置时间选择的自定义格式
             dateTimePicker1.CustomFormat = "yyyy-MM-dd HH:mm:ss";
-            
+
             //设置时间为当前时间
             dateTimePicker1.Value = DateTime.Now;
-            
+
             //显示上下箭头
             dateTimePicker1.ShowUpDown = true;
-            
+
             // 订阅 Tick 事件
             _alarmClock.Tick += (sender1, args) =>
             {
                 label2.Text = "Tick...";
-                
+
                 // 更新 Label 控件显示当前时间
                 UpdateCurrentTime();
             };
@@ -43,24 +44,32 @@ namespace Homework1
             {
                 // 从闹钟列表中移除对应的闹钟
                 RemoveAlarm();
-                
+
                 MessageBox.Show("Alarm!");
             };
-            
+
             _alarmClock.Start();
         }
+        
+        //闹钟功能
+        #region AlarmClock
 
         private void RemoveAlarm()
         {
-            // 从闹钟列表中移除对应的闹钟
-            _alarmClock.AlarmList.RemoveAt(0);
-            listBoxAlarms.Items.RemoveAt(0);
+            // 从闹钟列表中移除对应的闹钟，自动去重
+            var temp = _alarmClock.AlarmList.First();
+            var num = _alarmClock.AlarmList.LastIndexOf(temp);
+            _alarmClock.AlarmList.RemoveAll(i => i == temp);
+            for (var i = 0; i <= num; i++)
+            {
+                listBoxAlarms.Items.Remove("闹钟时间：" + temp.ToString("yyyy-MM-dd HH:mm:ss"));
+            }
         }
 
         private void UpdateCurrentTime()
         {
             // 获取当前时间并更新 Label 控件的文本
-            var currentTime = DateTime.Now.ToString("HH:mm:ss");
+            var currentTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             label1.Text = "当前时间：" + currentTime;
         }
 
@@ -75,7 +84,7 @@ namespace Homework1
                 _alarmClock.AlarmList.Add(selectedDateTime);
                 _alarmClock.AlarmList.Sort();
                 MessageBox.Show("闹钟已设置为：" + selectedDateTime.ToString("yyyy-MM-dd HH:mm:ss"));
-                
+
                 // 添加闹钟显示在 ListBox 控件中
                 listBoxAlarms.Items.Add("闹钟时间：" + selectedDateTime.ToString("yyyy-MM-dd HH:mm:ss"));
                 listBoxAlarms.Sorted = true;
@@ -85,6 +94,7 @@ namespace Homework1
                 MessageBox.Show("闹钟设置无效");
             }
         }
-        
+
+        #endregion
     }
 }
