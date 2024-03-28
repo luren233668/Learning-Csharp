@@ -1,0 +1,14 @@
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\bin\Debug\net7.0\Homework.exe
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\bin\Debug\net7.0\Homework.deps.json
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\bin\Debug\net7.0\Homework.runtimeconfig.json
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\bin\Debug\net7.0\Homework.dll
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\bin\Debug\net7.0\Homework.pdb
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.AssemblyInfoInputs.cache
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.AssemblyInfo.cs
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.csproj.CoreCompileInputs.cache
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.dll
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\refint\Homework.dll
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.pdb
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\Homework.genruntimeconfig.cache
+E:\homework\Csharp\Learning-Csharp\第五次作业\Homework\Homework\obj\Debug\net7.0\ref\Homework.dll
